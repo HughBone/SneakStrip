@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sneakstrip",
+  "version": "${version}",
+  "name": "SneakStrip",
+  "description": "Sneak to strip logs + paths",
+  "authors": [
+    "HughBone"
+  ],
+  "contributors": [
+  ],
+  "contact": {
+    "homepage": "",
+    "issues": ""
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.hughbone.sneakstrip.SneakStrip"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "^1.16.5"
+  },
+  "accessWidener": "sneakstrip.accesswidener"
+}
